@@ -124,7 +124,10 @@ local SCRIPT_URLS = {
 		on = function() loadstring(game:HttpGetAsync("https://seu-raw-script.com/ESP_RAGE_ON.lua"))() end,
 		off = function() loadstring(game:HttpGetAsync("https://seu-raw-script.com/ESP_RAGE_OFF.lua"))() end
 	},
-	
+	["ESP STAFF"] = {
+		on = function() loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/ghzmenu/GHZ-MENU-SCRIPTS-P-BLICOS/main/Esp%20staff%20on.lua"))() end,
+		off = function() loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/ghzmenu/GHZ-MENU-SCRIPTS-P-BLICOS/main/Esp%20staff%20off.lua"))() end
+	},
 	-- CAR TAB
 	["ESP CAR"] = {
 		on = function() loadstring(game:HttpGetAsync("https://seu-raw-script.com/ESP_CAR_ON.lua"))() end,
