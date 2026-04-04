@@ -121,17 +121,17 @@ local SCRIPT_URLS = {
 		off = function() loadstring(game:HttpGetAsync("https://seu-raw-script.com/ESP_BAG_OFF.lua"))() end
 	},
 	["ESP RAGE"] = {
-		on = function() loadstring(game:HttpGetAsync("https://seu-raw-script.com/ESP_RAGE_ON.lua"))() end,
-		off = function() loadstring(game:HttpGetAsync("https://seu-raw-script.com/ESP_RAGE_OFF.lua"))() end
+		on = function() loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/ghzmenu/GHZ-MENU-SCRIPTS-P-BLICOS/main/ESP%20DIATANCIA%20ON.lua"))() end,
+		off = function() loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/ghzmenu/GHZ-MENU-SCRIPTS-P-BLICOS/main/ESP%20DIATANCIA%20OFF.lua"))() end
 	},
 	["ESP STAFF"] = {
-		on = function() loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/ghzmenu/GHZ-MENU-SCRIPTS-P-BLICOS/main/Esp%20staff%20on.lua"))() end,
-		off = function() loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/ghzmenu/GHZ-MENU-SCRIPTS-P-BLICOS/main/Esp%20staff%20off.lua"))() end
+		on = function() loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/ghzmenu/GHZ-MENU-SCRIPTS-P-BLICOS/main/STAFF%20LIST%20OFF.lua"))() end,
+		off = function() loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/ghzmenu/GHZ-MENU-SCRIPTS-P-BLICOS/main/STAFF%20LIST%20OFF.lua"))() end
 	},
 	-- CAR TAB
 	["ESP CAR"] = {
-		on = function() loadstring(game:HttpGetAsync("https://seu-raw-script.com/ESP_CAR_ON.lua"))() end,
-		off = function() loadstring(game:HttpGetAsync("https://seu-raw-script.com/ESP_CAR_OFF.lua"))() end
+		on = function() loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/ghzmenu/GHZ-MENU-SCRIPTS-P-BLICOS/main/ESP%20CAR%20ON.lua"))() end,
+		off = function() loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/ghzmenu/GHZ-MENU-SCRIPTS-P-BLICOS/main/ESP%20CAR%20OFF.lua"))() end
 	},
 	["FLY CAR"] = {
 		on = function() loadstring(game:HttpGetAsync("https://seu-raw-script.com/FLY_CAR_ON.lua"))() end,
