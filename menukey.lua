@@ -7,10 +7,15 @@ local playerGui = player:WaitForChild("PlayerGui")
 
 -- CONFIGURAÇÕES - COLOQUE SUAS KEYS AQUI
 local validKeys = {
-    "key123",
-    "key456",
-    "key789",
-    "meistro2025"
+    "GS_MENUKEY20208938",
+    "GS_MENUKEY28207392",
+    "GS_MENUKEY873882773",
+    "GS_MENUKEY892973999",
+    "GS_MENUKEY89279209",
+    "GS_MENUKEY990279",
+    "GS_MENUKEY7782882",
+    "GS_MENUKEY8880272",
+    "GS_MENUKEY44472882",
 }
 
 -- LOADSTRING A EXECUTAR
