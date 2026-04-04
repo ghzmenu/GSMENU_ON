@@ -140,8 +140,8 @@ local SCRIPT_URLS = {
 	
 	-- DESTRY TAB
 	NOWALL = {
-		on = function() loadstring(game:HttpGetAsync("https://seu-raw-script.com/NOWALL_ON.lua"))() end,
-		off = function() loadstring(game:HttpGetAsync("https://seu-raw-script.com/NOWALL_OFF.lua"))() end
+		on = function() loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/ghzmenu/GHZ-MENU-SCRIPTS-P-BLICOS/main/NO%20WALL%20ON.LUA"))() end,
+		off = function() loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/ghzmenu/GHZ-MENU-SCRIPTS-P-BLICOS/main/No%20wall%20off.lua"))() end
 	}
 }
 
