@@ -38,14 +38,14 @@ local tabContents = {
 	},
 	ESP = {
 		left = {"ESP NAME", "ESP TRACE", "ESP BOX", "ESP LIFE", "ESP HEAD"},
-		right = {"ESP BAG", "ESP RAGE", "BREV", "BREV", "BREV"}
+		right = {"ESP BAG", "ESP RAGE", "ESP STAFF", "BREV", "BREV"}
 	},
 	CAR = {
 		left = {"ESP CAR", "FLY CAR", "NOCLIP", "BREV", "BREV"},
 		right = {"BREV", "BREV", "BREV", "BREV", "BREV"}
 	},
 	DESTRY = {
-		left = {"NOWALL", "BREV", "BREV", "BREV", "BREV"},
+		left = {"NOWALL", "PUXAR TODOS", "BREV", "BREV", "BREV"},
 		right = {"BREV", "BREV", "BREV", "BREV", "BREV"}
 	}
 }
