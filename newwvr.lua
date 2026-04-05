@@ -387,7 +387,7 @@ contentPadding.Parent = contentContainer
 local function createToggle(parent, name, yOffset)
 	local toggleContainer = Instance.new("Frame")
 	toggleContainer.Name = name .. "Container"
-	toggleContainer.Size = UDim2.new(1, 0, 0, 29)
+	toggleContainer.Size = UDim2.new(1, 0, 0, 30)
 	toggleContainer.Position = UDim2.new(0, 0, 0, yOffset)
 	toggleContainer.BackgroundTransparency = 1
 	toggleContainer.BorderSizePixel = 0
@@ -531,11 +531,11 @@ local function createTabContent(tabName)
 	local tabData = tabContents[tabName]
 	if tabData then
 		for i = 1, #tabData.left do
-			createToggle(leftColumn, tabData.left[i], (i - 1) * 26)
+			createToggle(leftColumn, tabData.left[i], (i - 1) * 31)
 		end
 
 		for i = 1, #tabData.right do
-			createToggle(rightColumn, tabData.right[i], (i - 1) * 26)
+			createToggle(rightColumn, tabData.right[i], (i - 1) * 31)
 		end
 	end
 
