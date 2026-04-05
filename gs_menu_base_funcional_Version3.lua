@@ -259,7 +259,7 @@ subtitleText.TextYAlignment = Enum.TextYAlignment.Center
 subtitleText.BackgroundTransparency = 1
 subtitleText.BorderSizePixel = 0
 subtitleText.Size = UDim2.new(0.3, 0, 1, 0)
-subtitleText.Position = UDim2.new(0.16, 0, 0, 0)
+subtitleText.Position = UDim2.new(0.2, 0, 0, 0)
 subtitleText.Parent = headerBar
 
 local rightContainer = Instance.new("Frame")
