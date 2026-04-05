@@ -313,7 +313,7 @@ end)
 
 local gapFrame = Instance.new("Frame")
 gapFrame.Name = "TransparentGap"
-gapFrame.Size = UDim2.new(0.78, 0, 0, 9)
+gapFrame.Size = UDim2.new(0.50, 0, 0, 9)
 gapFrame.Position = UDim2.new(0.11, 0, 0.05, 56)
 gapFrame.BackgroundTransparency = 1
 gapFrame.BorderSizePixel = 0
