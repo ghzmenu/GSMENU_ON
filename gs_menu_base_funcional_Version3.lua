@@ -242,7 +242,7 @@ subtitleText.TextYAlignment = Enum.TextYAlignment.Center
 subtitleText.BackgroundTransparency = 1
 subtitleText.BorderSizePixel = 0
 subtitleText.Size = UDim2.new(0.3, 0, 1, 0)
-subtitleText.Position = UDim2.new(0.20, 0, 0, 0)
+subtitleText.Position = UDim2.new(0.16, 0, 0, 0)
 subtitleText.Parent = headerBar
 
 local rightContainer = Instance.new("Frame")
@@ -315,7 +315,7 @@ local gapFrame = Instance.new("Frame")
 gapFrame.Name = "TransparentGap"
 gapFrame.Size = UDim2.new(0.2, 0, 0, 4)
 gapFrame.Position = UDim2.new(0.11, 0, 0.05, 56)
-gapFrame.BackgroundTransparency = 0
+gapFrame.BackgroundTransparency = 1
 gapFrame.BorderSizePixel = 0
 gapFrame.Parent = screenGui
 
