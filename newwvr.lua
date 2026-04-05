@@ -387,7 +387,7 @@ contentPadding.Parent = contentContainer
 local function createToggle(parent, name, yOffset)
 	local toggleContainer = Instance.new("Frame")
 	toggleContainer.Name = name .. "Container"
-	toggleContainer.Size = UDim2.new(1, 0, 0, 24)
+	toggleContainer.Size = UDim2.new(1, 0, 0, 29)
 	toggleContainer.Position = UDim2.new(0, 0, 0, yOffset)
 	toggleContainer.BackgroundTransparency = 1
 	toggleContainer.BorderSizePixel = 0
