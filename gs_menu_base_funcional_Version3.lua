@@ -194,7 +194,7 @@ local SCRIPT_URLS = {
 		on = function() loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/ghzmenu/GHZ-MENU-SCRIPTS-P-BLICOS/main/NO%20WALL%20ON.LUA"))() end,
 		off = function() loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/ghzmenu/GHZ-MENU-SCRIPTS-P-BLICOS/main/No%20wall%20off.lua"))() end
 	},
-	DESTRY_BREV_1 = {
+	ANTCAR = {
 		on = function() loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/ghzmenu/GHZ-MENU-SCRIPTS-P-BLICOS/main/ESP%20BOX%20OFF.lua"))() end,
 		off = function() loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/ghzmenu/GHZ-MENU-SCRIPTS-P-BLICOS/main/ESP%20BOX%20OFF.lua"))() end
 	},
@@ -243,7 +243,7 @@ local nameDisplayMap = {
 	["CAR_BREV_3"] = "VEHICLE 3",
 	["CAR_BREV_4"] = "VEHICLE 4",
 	["CAR_BREV_5"] = "VEHICLE 5",
-	["DESTRY_BREV_1"] = "DESTRUCTION 1",
+	["ANTCAR"] = "DESTRUCTION 1",
 	["DESTRY_BREV_2"] = "DESTRUCTION 2",
 	["DESTRY_BREV_3"] = "DESTRUCTION 3",
 	["DESTRY_BREV_4"] = "DESTRUCTION 4",
@@ -268,7 +268,7 @@ local tabContents = {
 		right = {"CAR_BREV_4", "CAR_BREV_5", "CAR_BREV_6", "CAR_BREV_7", "CAR_BREV_8"}
 	},
 	DESTRY = {
-		left = {"NOWALL", "DESTRY_BREV_1", "DESTRY_BREV_2", "DESTRY_BREV_3", "DESTRY_BREV_4"},
+		left = {"NOWALL", "ANTCAR", "DESTRY_BREV_2", "DESTRY_BREV_3", "DESTRY_BREV_4"},
 		right = {"DESTRY_BREV_5", "DESTRY_BREV_6", "DESTRY_BREV_7", "DESTRY_BREV_8", "DESTRY_BREV_9"}
 	}
 }
