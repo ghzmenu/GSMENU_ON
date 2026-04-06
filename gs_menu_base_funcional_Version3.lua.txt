@@ -133,6 +133,9 @@ local SCRIPT_URLS = {
 ["ANTCAR"] = {
 		on = function() loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/ghzmenu/GHZ-MENU-SCRIPTS-P-BLICOS/main/ANTCARON.LUA"))() end,
 		off = function() loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/ghzmenu/GHZ-MENU-SCRIPTS-P-BLICOS/main/ANTCAROFF.LUA"))() end
+	},     ["ANTCAR"] = {
+		on = function() loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/ghzmenu/GHZ-MENU-SCRIPTS-P-BLICOS/main/ANTCARON.LUA"))() end,
+		off = function() loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/ghzmenu/GHZ-MENU-SCRIPTS-P-BLICOS/main/ANTCAROFF.LUA"))() end
 	},
 
 -- ============================================================================
