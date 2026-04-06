@@ -567,7 +567,7 @@ local function createTabContent(tabName)
 	local divider = Instance.new("Frame")
 	divider.Name = "Divider"
 	divider.Size = UDim2.new(0, 1, 0.9, 0)
-	divider.Position = UDim2.new(0.15, 0, 0.05, 0)
+	divider.Position = UDim2.new(0.20, 0, 0.05, 0)
 	divider.BackgroundColor3 = COLOR_WHITE
 	divider.BackgroundTransparency = 0.5
 	divider.BorderSizePixel = 0
