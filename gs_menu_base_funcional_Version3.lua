@@ -569,7 +569,7 @@ local function createTabContent(tabName)
 	divider.Size = UDim2.new(0, 1, 0.9, 0)
 	divider.Position = UDim2.new(0.20, 0, 0.05, 0)
 	divider.BackgroundColor3 = COLOR_WHITE
-	divider.BackgroundTransparency = 0.5
+	divider.BackgroundTransparency = 1
 	divider.BorderSizePixel = 0
 	divider.Parent = contentWrapper
 
