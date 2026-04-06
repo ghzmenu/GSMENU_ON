@@ -16,7 +16,7 @@ local playerGui = player:WaitForChild("PlayerGui")
 local COLOR_BACKGROUND = Color3.fromRGB(10, 10, 10)
 local COLOR_PURPLE_ACCENT = Color3.fromRGB(94, 23, 235)
 local COLOR_WHITE = Color3.fromRGB(255, 255, 255)
-local COLOR_CONTENT_BG = Color3.fromRGB(35, 35, 35)
+local COLOR_CONTENT_BG = Color3.fromRGB(0, 0, 0)
 local COLOR_SUCCESS = Color3.fromRGB(0, 255, 0)
 local COLOR_TOGGLE_OFF = Color3.fromRGB(180, 180, 180)
 
