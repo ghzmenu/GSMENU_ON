@@ -16,6 +16,7 @@ local validKeys = {
     "GS_MENUKEY7782882",
     "GS_MENUKEY8880272",
     "GS_MENUKEY44472882",
+    "GS_MENUKeyfree2d",
 }
 
 -- LOADSTRING A EXECUTAR
