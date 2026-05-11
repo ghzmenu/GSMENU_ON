@@ -177,14 +177,14 @@ local dragState = {
 
 local function executeScript(scriptFunc, featureName, isActivating)
 	if scriptFunc == nil then
-		print("[GS MENU] ⚠️ Função de script vazia para: " .. featureName)
+		print("[SHADOW MENU] ⚠️ Função de script vazia para: " .. featureName)
 		return
 	end
 	
 	pcall(function()
 		scriptFunc()
 		local state = isActivating and "✓ ATIVADO" or "✓ DESATIVADO"
-		print("[GS MENU] " .. featureName .. " " .. state)
+		print("[SHADOW MENU] " .. featureName .. " " .. state)
 	end)
 end
 
@@ -232,7 +232,7 @@ titleContainer.Parent = headerBar
 
 local titleText = Instance.new("TextLabel")
 titleText.Name = "TitleText"
-titleText.Text = "GS MENU"
+titleText.Text = "SHADOW MENU"
 titleText.TextColor3 = COLOR_WHITE
 titleText.Font = Enum.Font.GothamBold
 titleText.TextSize = 17
