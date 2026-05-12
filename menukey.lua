@@ -12,11 +12,11 @@ local validKeys = {
     "Shadow.9881981818",
     "Shadow.87292879229",
     "Shadow.98818188282",
-    "GS_MENUKEY990279",
-    "GS_MENUKEY7782882",
-    "GS_MENUKEY8880272",
-    "GS_MENUKEY44472882",
-    "GS_MENUKeyfree2d",
+    "Shadow.09292029929",
+    "Shadow.000829299101",
+    "Shadow.9289191928288",
+    "Shadow.088918282828",
+    "Shadow.09189192929",
 }
 
 -- LOADSTRING A EXECUTAR
